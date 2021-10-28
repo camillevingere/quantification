@@ -128,17 +128,17 @@ Cette quantification est moins destructrice sur les images PPM qui sont en coule
 
 #### PPM
 
-|                     Original                      |         n=50          |
-| :-----------------------------------------------: | :-------------------: |
-| [![Histogramme original][histogramme_original]]() | [![n=50][n_50_pgm]]() |
+|                       Original                        |         n=50          |
+| :---------------------------------------------------: | :-------------------: |
+| [![Histogramme original][histogramme_original_ppm]]() | [![n=50][n_50_ppm]]() |
 
 |          n=100          |          n=200          |
 | :---------------------: | :---------------------: |
-| [![n=100][n_100_pgm]]() | [![n=200][n_200_pgm]]() |
+| [![n=100][n_100_ppm]]() | [![n=200][n_200_ppm]]() |
 
 ### Conclusion
 
-En comparant avec l'histogramme original, on peut voir que plus n est grand et plus il y a des "trous" dans l'histogramme. C'est à dire qu'il y a de moins en moins de variété dans les niveaux de gris. C'est moins flagrant avec les images PPM en couleur.
+En comparant avec l'histogramme original, on peut voir que plus n est grand et plus il y a des "trous" dans l'histogramme. C'est à dire qu'il y a de moins en moins de variété dans les niveaux de gris. C'est encore plus flagrant avec les images en couleurs.
 
 ## Exercice 2 : Compression par quantification adaptative
 
@@ -214,7 +214,11 @@ Lien du projet: [https://github.com/camillevingere/quantification](https://githu
 [n_50_pgm]: images/n_50_pgm.png
 [n_100_pgm]: images/n_100_pgm.png
 [n_200_pgm]: images/n_200_pgm.png
+[n_50_ppm]: images/n_50_ppm.png
+[n_100_ppm]: images/n_100_ppm.png
+[n_200_ppm]: images/n_200_ppm.png
 [m_50_pgm]: images/n_50_pgm.png
 [test]: images/test.png
 [n=100]: images/n_100.png
 [histogramme_original]: images/histogramme_original.png
+[histogramme_original_ppm]: images/histogramme_original_ppm.png
